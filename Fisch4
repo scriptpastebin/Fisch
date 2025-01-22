@@ -94,5 +94,5 @@ getgenv().Config = {
         ["Use Sundial if Day"] = true
     }
 }
-getgenv().Key = "BGhCJpNOfHeKqnjEiLEtppLsdMakWzfo"
+getgenv().Key = "kbcd2321136abc6b7f9da7cc"
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
