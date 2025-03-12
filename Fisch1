@@ -1,10 +1,15 @@
-_G.Configs = {
+_G.Configs = _G.Configs or {
 	-- [[ setclipboard(tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)) ]] -- For Copy CFrame
-	Version = "15",
+	Version = "16",
 	["Kai Aurora"] = false, -- < Boolean > Not Recommended Enabled For Kai Aurora Only
 	["Lock Plan"] = {
 		["Enabled"] = false, -- < Boolean > Enabled Lock Level 
 		["Lock Level"] = 500,  -- < Number > Lock Level 
+	},
+	["Level Dupe"] = {
+		["Enabled"] = true, -- < Boolean > Enabled For Dupe Level
+		["Rod At Alligator Pool"] = "Rapid Rod", -- < Boolean > Rod Using At Alligator Pool
+		["To Level"] = 1000, -- < Number > Lock Max Level Dupe 
 	},
 	Setting = {
 		["Perfect Catch"] = 100, -- < String > Style Perfect Catch [ Percent ]
@@ -48,7 +53,7 @@ _G.Configs = {
 			["Poseidon Rod"] = {"Hasty"},
 			["Ethereal Prism Rod"] = {"Clever"},
 		},
-		["Min Money To Enchant"] = 100000, -- < Number > Min Money To Enchant Rods
+		["Min Money To Enchant"] = 1000000, -- < Number > Min Money To Enchant Rods
 		["Allow Enchant"] = true   -- < Boolean > Enabled Enchant
 	},
 	["Custom Equip"] = {
@@ -77,7 +82,7 @@ _G.Configs = {
 		["Crystalized Rod"] = {
 			["Allow Doing"] = true, -- < Boolean > Enabled Do Crystalized Rod
 			["Min Money Doing"] = 300000, -- < Number > Min Money For Crystalized Rod
-			["Level Doing"] = 500, -- < Number > Level For Starting Doing Crystalized Rod
+			["Level Doing"] = 1000, -- < Number > Level For Starting Doing Crystalized Rod
 		},
 		["Rod Of The Depths"] = {
 			["Allow Doing"] = true, -- < Boolean > Enabled Do Rod Of The Depths
@@ -101,7 +106,7 @@ _G.Configs = {
 			["Allow Doing"] = true, -- < Boolean > Enabled Do Forgotten Fang Rod ( Req Lv 750 )
 			["Min Money Doing"] = 3000000, -- < Number > Min Money For Do Forgotten Fang Rod
 			["Using Rod"] = "Ethereal Prism Rod", -- < String > Name Rod For Use In Clam ( Change 1/650 Recommend Luckily )
-			["Level Doing"] = 500, -- < Number > Level For Starting Doing Forgotten Fang ( Level > 750 Only )
+			["Level Doing"] = 1000, -- < Number > Level For Starting Doing Forgotten Fang ( Level > 750 Only )
 		},
 		["Rod of The Eternal King"] = {
 			["Allow Doing"] = true, -- < Boolean > Enabled Do Eternal King Rod ( Req Lv 650 )
