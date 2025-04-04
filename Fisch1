@@ -13,8 +13,8 @@ _G.Configs = {
 			["Black Screen"] = true, -- < Boolean > Auto Open / Close Black Screen
 			["Enabled"] = true, -- < Boolean > Using Cpu less 20
 			["FpsCap"] = {
-				["On BlackScreen"] = 15, -- < Number > Fps Lock
-				["Un BlackScreen"] = 90 -- < Number > Fps Lock
+				["On BlackScreen"] = 30, -- < Number > Fps Lock
+				["Un BlackScreen"] = 60 -- < Number > Fps Lock
 			}
 		},
 		["Position Farming"] = {
@@ -62,7 +62,7 @@ _G.Configs = {
 			["No-Life Rod"] = {"Hasty"}
 		},
 		["Min Money To Enchant"] = 100000, -- < Number > Min Money To Enchant Rods
-		["Allow Enchant"] = false   -- < Boolean > Enabled Enchant
+		["Allow Enchant"] = true   -- < Boolean > Enabled Enchant
 	},
 	["Custom Equip"] = {
 		["Trier Rods Equip"] = {"Rapid Rod", "Trident Rod", "Aurora Rod", "Rod Of The Depths", "Kraken Rod", "Poseidon Rod", "No-Life Rod", "Ethereal Prism Rod"}, -- < Table > Table Equip Rod
