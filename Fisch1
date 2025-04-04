@@ -55,7 +55,6 @@ _G.Configs = {
 	},
 	["Auto Enchant"] = {
 		["Lock Enchant"] = { -- < Table > Lock Enchant ["Rod Name"] = {"Name Enchant","Muti Enchant"}		
-			["Aurora Rod"] = {"Hasty"},
 			["Kraken Rod"] = {"Hasty"},
 			["Poseidon Rod"] = {"Hasty"},
 			["Ethereal Prism Rod"] = {"Clever"},
