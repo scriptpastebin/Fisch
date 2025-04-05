@@ -138,9 +138,9 @@ _G.Configs = {
 		}
 	}, 
 	["Second Sea"] = {
-		["Enabled"] = true,
-		["Level Doing"] = 1000,
-		["Level Teleport Second Sea"] = 1000
+		["Enabled"] = false,
+		["Level Doing"] = 1100,
+		["Level Teleport Second Sea"] = 1100
 	},
 	["After Max Level"] = {
 		["Enabled"] = true, -- < Boolean > Enabled After Max Level Function
