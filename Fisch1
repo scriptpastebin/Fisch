@@ -8,13 +8,13 @@ _G.Configs = {
 	},
 	Setting = {
 		["Perfect Catch"] = 100, -- < String > Style Perfect Catch [ Percent ]
-		["Style Selected Object Shake"] = false, -- < Boolean > Not Recommended Enabled For Fix Shake Bug 
+		["Style Selected Object Shake"] = false, -- < Boolean > Not Recommended Enabled For Fix Shake Bug
 		["Reducing Cpu Usage"] = {
 			["Black Screen"] = true, -- < Boolean > Auto Open / Close Black Screen
 			["Enabled"] = true, -- < Boolean > Using Cpu less 20
 			["FpsCap"] = {
-				["On BlackScreen"] = 30, -- < Number > Fps Lock
-				["Un BlackScreen"] = 60 -- < Number > Fps Lock
+				["On BlackScreen"] = 15, -- < Number > Fps Lock
+				["Un BlackScreen"] = 90 -- < Number > Fps Lock
 			}
 		},
 		["Position Farming"] = {
@@ -35,14 +35,14 @@ _G.Configs = {
 			["MaxPing"] = 100000 -- < Number > MaxPing For Rejoin Server
 		},
 		["Aurora Borealis"] = {
-			["Auto Using"] = false, -- < Boolean > Auto Using Aurora Totem
-			["Full Aurora"] = false, -- < Boolean > Auto Using Sundial Totem
-			["Auto Buy"] = false, -- < Boolean > Auto Buy Aurora / Sundial
+			["Auto Using"] = true, -- < Boolean > Auto Using Aurora Totem
+			["Full Aurora"] = true, -- < Boolean > Auto Using Sundial Totem
+			["Auto Buy"] = true, -- < Boolean > Auto Buy Aurora / Sundial
 			["Min Money"] = 20000000 -- < Number > Min Money Buy Aurora / Sundial
 		},
 		["Farm Level"] = {
 			["Allow Farm Level"] = true,  -- < Boolean > Enabled Mode Farm Level
-			["Trier Rods [For Level]"] = {"Tempest Rod", "Ethereal Prism Rod"}, -- < Table > Table Equip Rod For Farm Level
+			["Trier Rods [For Level]"] = {"Azure Of Lagoon","Ethereal Prism Rod"}, -- < Table > Table Equip Rod For Farm Level
 			["Min Money"] = 1000000 -- < Number > Min Money To Farm Level
 		},
 		["Sell Setting"] = {
@@ -55,22 +55,24 @@ _G.Configs = {
 	},
 	["Auto Enchant"] = {
 		["Lock Enchant"] = { -- < Table > Lock Enchant ["Rod Name"] = {"Name Enchant","Muti Enchant"}		
+			["Aurora Rod"] = {"Hasty"},
 			["Kraken Rod"] = {"Hasty"},
 			["Poseidon Rod"] = {"Hasty"},
 			["Ethereal Prism Rod"] = {"Clever"},
 			["No-Life Rod"] = {"Clever"}
+			["Azure Of Lagoon"] = {"Clever"}
 		},
 		["Min Money To Enchant"] = 100000, -- < Number > Min Money To Enchant Rods
 		["Allow Enchant"] = true   -- < Boolean > Enabled Enchant
 	},
 	["Custom Equip"] = {
 		["Trier Rods Equip"] = {"Rapid Rod", "Trident Rod", "Aurora Rod", "Rod Of The Depths", "Kraken Rod", "Poseidon Rod", "No-Life Rod", "Ethereal Prism Rod"}, -- < Table > Table Equip Rod
-		["Trier Rods Equip [ Second Sea ]"]	 = {"Ethereal Prism Rod", "Azure Of Lagoon", "Firefly Rod", "Frog Rod", "Blazebringer Rod", "Free Spirit Rod"}
+		["Trier Rods Equip [ Second Sea ]"]	 = {"Ethereal Prism Rod", "Azure Of Lagoon", "Firefly Rod", "Frog Rod", "Blazebringer Rod", "Free Spirit Rod", "Azure Of Lagoon"}
 	},
 	["Custom Buying"] = {
 		["Buying Rods"] = {
-			["Rods"] = {"Ethereal Prism Rod"}, -- < Table > Custom Rods Buying
-			["Ready Have Rods For Buy Rods"] = {"Rapid Rod", "Aurora Rod", "Ethereal Prism Rod"},  -- < Table > Ready Have Rods To Buying Custom Rods
+			["Rods"] = {"Ethereal Prism Rod", "Azure Of Lagoon"}, -- < Table > Custom Rods Buying
+			["Ready Have Rods For Buy Rods"] = {"Rapid Rod", "Aurora Rod", "Ethereal Prism Rod", "Azure Of Lagoon"},  -- < Table > Ready Have Rods To Buying Custom Rods
 		}, 
 		["Second Sea Buying Rods"] = {"Firefly Rod", "Frog Rod", "Blazebringer Rod", "Free Spirit Rod", "Azure Of Lagoon"},
 		["Allow Buying"] = {
@@ -83,6 +85,7 @@ _G.Configs = {
 			["Challenger's Rod"] = false, -- < Boolean > Enabled For Buying
 			["Rod Of The Zenith"] = false, -- < Boolean > Enabled For Buying
 			['Ethereal Prism Rod'] = true, -- < Boolean > Enabled For Buying
+			['Azure Of Lagoon'] = true, -- < Boolean > Enabled For Buying
 		},
 		["Buy Effect Luck"] = {
 			["Allow Buying"] = true,  -- < Boolean > Enabled Buying Luck Effect
@@ -138,13 +141,13 @@ _G.Configs = {
 		}
 	}, 
 	["Second Sea"] = {
-		["Enabled"] = false,
-		["Level Doing"] = 1100,
-		["Level Teleport Second Sea"] = 1100
+		["Enabled"] = true,
+		["Level Doing"] = 1000,
+		["Level Teleport Second Sea"] = 1000
 	},
 	["After Max Level"] = {
 		["Enabled"] = true, -- < Boolean > Enabled After Max Level Function
-		["Live In Sea"] = 1, -- < Number > Index Sea After Max Level
+		["Live In Sea"] = 2, -- < Number > Index Sea After Max Level
 		["Min Money For Start After Max Level"] = 30000000, -- < Number > Min Money For Start After Max Level Function
 		["Fishing Zone"] = { -- < Table > Fishing Zone Select ( Special Zone )
 			"Megalodon",
@@ -162,7 +165,7 @@ _G.Configs = {
 		},
 	},
 	["Roblox Account Manager"] = {
-		["Enabled"] = false, -- < Boolean > Enabled For Set Ailas, Description
+		["Enabled"] = true, -- < Boolean > Enabled For Set Ailas, Description
 		["Black List Rods"] = {"Flimsy Rod", "Carbon Rod", "Destiny Rod", "Trident Rod", "Volcanic Rod", "Challenger's Rod", "Kings Rod", "Midas Rod", "Mythical Rod"}
 	},
 }
