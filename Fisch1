@@ -76,14 +76,14 @@ _G.Configs = {
 		["Second Sea Buying Rods"] = {"Firefly Rod", "Frog Rod", "Blazebringer Rod", "Free Spirit Rod", "Azure Of Lagoon"},
 		["Allow Buying"] = {
 			["Aurora Rod"] = true, -- < Boolean > Enabled For Buying
-			["Trident Rod"] = true, -- < Boolean > Enabled For Buying
+			["Trident Rod"] = false, -- < Boolean > Enabled For Buying
 			["Poseidon Rod"] = true, -- < Boolean > Enabled For Buying
 			['Ethereal Prism Rod'] = true, -- < Boolean > Enabled For Buying
-			["Destiny Rod"] = true, -- < Boolean > Enabled For Buying
-			["Kraken Rod"] = true, -- < Boolean > Enabled For Buying
+			["Destiny Rod"] = false, -- < Boolean > Enabled For Buying
+			["Kraken Rod"] = false, -- < Boolean > Enabled For Buying
 			["Volcanic Rod"] = true, -- < Boolean > Enabled For Buying
-			["Challenger's Rod"] = true, -- < Boolean > Enabled For Buying
-			["Rod Of The Zenith"] = true, -- < Boolean > Enabled For Buying
+			["Challenger's Rod"] = false, -- < Boolean > Enabled For Buying
+			["Rod Of The Zenith"] = false, -- < Boolean > Enabled For Buying
 			['Azure Of Lagoon'] = true, -- < Boolean > Enabled For Buying
 		},
 		["Buy Effect Luck"] = {
@@ -91,7 +91,7 @@ _G.Configs = {
 			["Min Money"] = 20000  -- < Number > Min Money For Buying Luck Effect
 		},
 		["Crystalized Rod"] = {
-			["Allow Doing"] = true, -- < Boolean > Enabled Do Crystalized Rod
+			["Allow Doing"] = false, -- < Boolean > Enabled Do Crystalized Rod
 			["Min Money Doing"] = 30000000, -- < Number > Min Money For Crystalized Rod
 			["Rod In Glass Diamond"] = "Aurora Rod",  -- < String > Name Rod For Use In Puffer Pool
 			["Level Doing"] = 1000, -- < Number > Level For Starting Doing Crystalized Rod
@@ -104,19 +104,19 @@ _G.Configs = {
 			["Level Doing"] = 1000, -- < Number > Level For Starting Doing The Depths Rod
 		},
 		["Magma Rod"] = {
-			["Allow Doing"] = true, -- < Boolean > Enabled Do Magma Rod
+			["Allow Doing"] = false, -- < Boolean > Enabled Do Magma Rod
 			["Min Money Doing"] = 30000000, -- < Number > Min Money For Do Magma Rod
 			["Rod In Puffer Pool"] = "Aurora Rod",  -- < String > Name Rod For Use In Puffer Pool
 			["Level Doing"] = 500, -- < Number > Level For Starting Doing Magma Rod
 		},
 		["Fungal Rod"] = {
-			["Allow Doing"] = true, -- < Boolean > Enabled Do Fungal Rod
+			["Allow Doing"] = false, -- < Boolean > Enabled Do Fungal Rod
 			["Min Money Doing"] = 30000000, -- < Number > Min Money For Do Fungal Rod
 			["Rod In Alligator"] = "Aurora Rod",  -- < String > Name Rod For Use In Alligator Pool
 			["Level Doing"] = 500, -- < Number > Level For Starting Doing Fungal Rod
 		},
 		["Heaven Rod"] = {
-			["Allow Doing"] = true, -- < Boolean > Enabled Do Heaven Rod
+			["Allow Doing"] = false, -- < Boolean > Enabled Do Heaven Rod
 			["Min Money Doing"] = 30000000, -- < Number > Min Money For Do Heaven Rod
 			["Hopserver"] = false, -- < Boolean > Enabled Hopserver For Crystal Not Spawn
 			["Level Doing"] = 500, -- < Number > Level For Starting Doing Heaven Rod
@@ -127,13 +127,13 @@ _G.Configs = {
 			["Level Doing"] = 1000, -- < Number > Level For Starting Doing Leviathan's Fang Rod
 		},
 		["Rod of The Forgotten Fang"] = {
-			["Allow Doing"] = true, -- < Boolean > Enabled Do Forgotten Fang Rod ( Req Lv 750 )
+			["Allow Doing"] = false, -- < Boolean > Enabled Do Forgotten Fang Rod ( Req Lv 750 )
 			["Min Money Doing"] = 30000000, -- < Number > Min Money For Do Forgotten Fang Rod
 			["Using Rod"] = "Ethereal Prism Rod", -- < String > Name Rod For Use In Clam ( Change 1/650 Recommend Luckily )
 			["Level Doing"] = 1000, -- < Number > Level For Starting Doing Forgotten Fang ( Level > 750 Only )
 		},
 		["Rod of The Eternal King"] = {
-			["Allow Doing"] = true, -- < Boolean > Enabled Do Eternal King Rod ( Req Lv 650 )
+			["Allow Doing"] = false, -- < Boolean > Enabled Do Eternal King Rod ( Req Lv 650 )
 			["Min Money Doing"] = 30000000, -- < Number > Min Money For Do Eternal King Rod
 			["Rod In Clam"] = "Ethereal Prism Rod", -- < String > Name Rod For Use In Clam ( Change 1/650 Recommend Luckily )
 			["Level Doing"] = 1000, -- < Number > Level For Starting Doing Eternal King ( Level > 650 Only )
