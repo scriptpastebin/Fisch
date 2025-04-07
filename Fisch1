@@ -58,7 +58,6 @@ _G.Configs = {
 			["Aurora Rod"] = {"Hasty"},
 			["Poseidon Rod"] = {"Hasty"},
 			["Ethereal Prism Rod"] = {"Clever"},
-			["No-Life Rod"] = {"Clever"},
 			["Azure Of Lagoon"] = {"Clever"}
 		},
 		["Min Money To Enchant"] = 100000, -- < Number > Min Money To Enchant Rods
